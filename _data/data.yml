@@ -3,187 +3,153 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: 张景宣
+    tagline: 
+    avatar: me.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email: nosisi@mail.ustc.edu.cn
+    phone: +86 18110931750
+    website:  #do not add http://
+    linkedin: #alandoe
+    github: jxzhanggg
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: #'@webjeda'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
-      - idiom: English
+      - idiom: Chinese
         level: Native
 
-      - idiom: French
-        level: Professional
+      - idiom: English
+        level: IELTS 7.0 / 9.0
 
-      - idiom: Spanish
-        level: Professional
-
-    interests:
-      - item: Climbing
-        link:
-
-      - item: Snowboarding
-        link:
-
-      - item: Cooking
-        link:
+    #interests:
+    #  - item: Climbing
+    #    link:
 
 career-profile:
-    title: Career Profile
+    title: 个人简介
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      我的主要研究方向是语音合成，语音转换任务。读博期间的一些工作也主要围绕语音任务展开，
+      主要包括基于序列到序列的方法提升语音转换的效果，并利用特征解耦的方法拓展到非平行序列
+      到序列的语音转换。其他的工作还包括基于说话人对抗学习的语音转化，在爱丁堡大学交流期间
+      工作主要围绕基于口唇视频和超声波发音器官的语音生成。
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+    - degree: 电子信息工程博士
+      university: 中国科学技术大学, 信息学院
+      time: 2016.09 - 2021.06
+      tutor: 导师：凌震华，戴礼荣
+    
+    - degree: 联合培养博士
+      university: 爱丁堡大学， CSTR
+      time: 2020.02 - 2020.08
+      tutor: 导师：Korin Richmond
+
+    - degree: 电子信息工程学士
+      university: 中国科学技术大学, 少年班学院
+      time: 2012.09 - 2016.06
+      tutor: #
+
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: 联合培养博士，访问学生
+      time: 2020.02 - 2020.08
+      company: CSTR, University of Edinburgh, UK
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+          - 基于口唇视频和超声波发音器官的语音生成, 口唇视频和超声数据含有大量的噪声信息，
+          并且有数据量稀疏模型难以训练的问题。口唇数据本身恢复声学信号是一个非常有挑战性而且有待研究的问题。导师：Korin Richmond
+    
+    - role: 实习生
+      time: 2017.11 - 2018.08
+      company: 科大讯飞公司，安徽合肥
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+          - 参与部分 Voice Conversion Challenge 2018 (VCC2018) 工作 , 系统获得比赛第一 名
+          - 以VCC2018工作为基线系统，协助提供ASV2019比赛数据集
+          - 序列到序列模型的声音转换方法研究
+          - 利用基于DNN的语音增强技术提升低比特WaveNet波形建模效果
+
 projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    title: 项目
+    intro: 
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: 非平行语音序列到序列转换
+        link:  https://github.com/jxzhanggg/nonparaSeq2seqVC_code 
+        tagline: 开源项目。基于序列到序列模型受限于平行数据，在这个工作中我们提出了基于说话人特征和语言学特征解耦的方法，使序列到序列方法扩展到非平行语音转换任务中， 2018.3 - 2019.11
+      
+      - title: 三星研究院语音增强项目
+        link: #"#"
+        tagline: 主要负责低延迟的单通道语音增强模型搭建和调优。实现更好的语音增强效果，尝试了渐进学习网络，同时进行干净语音帧和IRM多目标学习， 2016.11 - 2017.5 
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: 大学生创新项目
+        link: #"#"
+        tagline: 基于声学控制模型的歌唱到声音转换, 基于传统方法的歌唱到声音转换，主要包括边界匹配模块，时长调整模块，基频和频谱调整模块，2015.5 - 2016.5
 
 publications:
-    title: Publications
+    title: 发表文章
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+          
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: Non-Parallel Sequence-to-Sequence Voice Conversion with Disentangled Linguistic and Speaker Representations
+        link: https://arxiv.org/abs/1906.10508
+        authors: Jing-Xuan Zhang, Zhen-Hua Ling, Li-Rong Dai
+        conference: IEEE/ACM Trans. on Audio, Speech and Lang. Proc., 2020
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: Sequence-to-Sequence Acoustic Modeling for Voice Conversion
+        link: https://arxiv.org/abs/1810.06865
+        authors: Jing-Xuan Zhang, Zhen-Hua Ling, Li-Juan Liu, Yuan Jiang, Li-Rong Dai
+        conference:  IEEE/ACM Trans. on Audio, Speech, and Lang. Proc., 2019
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Recognition-Synthesis Based Non-Parallel Voice Conversion with Adversarial Learning
+        link: #"#"
+        authors: Jing-Xuan Zhang, Zhen-Hua Ling, Li-Rong Dai
+        conference: INTERSPEECH, 2020, submitted
+      
+      - title: Improving Sequence-to-Sequence Voice Conversion by Adding Text-Supervision
+        link:  https://arxiv.org/abs/1811.08111
+        authors: Jing-Xuan Zhang, Zhen-Hua Ling, Yuan Jiang, Li-Juan Liu, Liang Chen, Li-Rong Dai
+        conference: ICASSP, 2019
+      
+      - title: Forward Attention in Sequence-to-Sequence Acoustic Modeling for Speech Synthesis
+        link: https://arxiv.org/abs/1807.06736
+        authors: Jing-Xuan Zhang, Zhen-Hua Ling, Li-Rong Dai
+        conference: ICASSP, 2019
+
+      - title: DNN-Based Spectral Enhancement For Neural Waveform Generators With Low-Bit Quantization
+        link: https://ieeexplore.ieee.org/document/8683016/
+        authors: Yang Ai, Jing-Xuan Zhang, Zhen-Hua Ling
+        conference: ICASSP, 2019
+      
+      - title: "ASVspoof 2019: a large-scale public database of synthetic, converted and replayed speech"
+        link:  https://arxiv.org/abs/1911.01601
+        authors: Xin Wang, et al., Jing-Xuan Zhang, Zhen-Hua Ling
+        conference: Computer Speech and Language, 2019
+
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: Python 
         level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: PyTorch, Tensorflow
+        level: 95%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Matlab, C++
+        level: 70%
+
+      - name: HTML5 & CSS
+        level: 50%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Last Update 2020/3/20 下载我的<a href="assets/images/zjx_cv.pdf" target="_blank" rel="nofollow">简历</a>
+
+    
+
