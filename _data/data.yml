@@ -28,9 +28,9 @@ sidebar:
       - idiom: 英语
         level: 雅思 (IELTS) 7.0 / 9.0
 
-    #interests:
-    #  - item: Climbing
-    #    link:
+    interests:
+      - item: 旅行，看电影，打羽毛球
+        link: #
 
 career-profile:
     title: 个人简介
