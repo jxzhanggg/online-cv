@@ -25,11 +25,8 @@ sidebar:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
-      - idiom: Chinese
-        level: Native
-
-      - idiom: English
-        level: IELTS 7.0 / 9.0
+      - idiom: 英语
+        level: 雅思 (IELTS) 7.0 / 9.0
 
     #interests:
     #  - item: Climbing
@@ -76,12 +73,12 @@ experiences:
           - 利用基于DNN的语音增强技术提升低比特WaveNet波形建模效果
 
 projects:
-    title: 项目
+    title: 参与项目
     intro: 
     assignments:
       - title: 非平行语音序列到序列转换
         link:  https://github.com/jxzhanggg/nonparaSeq2seqVC_code 
-        tagline: 开源项目。基于序列到序列模型受限于平行数据，在这个工作中我们提出了基于说话人特征和语言学特征解耦的方法，使序列到序列方法扩展到非平行语音转换任务中， 2018.3 - 2019.11
+        tagline: 开源项目，基于序列到序列模型受限于平行数据，在这个工作中我们提出了基于说话人特征和语言学特征解耦的方法，使序列到序列方法扩展到非平行语音转换任务中， 2018.3 - 2019.11
       
       - title: 三星研究院语音增强项目
         link: #"#"
@@ -133,7 +130,7 @@ publications:
 
 
 skills:
-    title: Skills &amp; Proficiency
+    title: 代码技能
 
     toolset:
       - name: Python 
@@ -144,9 +141,6 @@ skills:
 
       - name: Matlab, C++
         level: 70%
-
-      - name: HTML5 & CSS
-        level: 50%
 
 footer: >
     Last Update 2020/3/20 下载我的<a href="assets/images/zjx_cv.pdf" target="_blank" rel="nofollow">简历</a>
