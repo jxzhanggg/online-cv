@@ -9,13 +9,13 @@ sidebar:
     # Profile information
     name: 张景宣
     tagline: 
-    avatar: me.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: me2.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: nosisi@mail.ustc.edu.cn
     phone: +86 18110931750
-    website:  #do not add http://
-    linkedin: #alandoe
+    website:  jxzhanggg.github.io/online-cv_en #do not add http://
+    linkedin: 景宣-张-769888bb #alandoe
     github: jxzhanggg
     gitlab:
     bitbucket:
