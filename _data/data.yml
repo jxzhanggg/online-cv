@@ -60,17 +60,26 @@ experiences:
       time: 2020.02 - 2020.08
       company: CSTR, University of Edinburgh, UK
       details: |
-          - 基于口唇视频和超声波发音器官的语音生成, 口唇视频和超声数据含有大量的噪声信息，
-          并且有数据量稀疏模型难以训练的问题。口唇数据本身恢复声学信号是一个非常有挑战性而且有待研究的问题。
+          <p>
+          <ul>
+            <li> 基于口唇视频和超声波发音器官的语音生成, 口唇视频和超声数据含有大量的噪声信息，
+          并且有数据量稀疏模型难以训练的问题。口唇数据本身恢复声学信号是一个非常有挑战性而且有待研究的问题。</li>
+            <li> 参加 <a href=http://www.vc-challenge.org/ target="_blank">Voice Conversion Challenge 2020 (VCC2020)</a> 工作,  比赛结果将于2020年7月31日公布 </li>
+          </ul>
+          </p>
     
     - role: 实习生
       time: 2017.11 - 2018.08
       company: 科大讯飞公司，安徽合肥
       details: |
-          - 参与部分 Voice Conversion Challenge 2018 (VCC2018) 工作 , 系统获得比赛第一 名
-          - 以VCC2018工作为基线系统，协助提供ASV2019比赛数据集
-          - 序列到序列模型的声音转换方法研究
-          - 利用基于DNN的语音增强技术提升低比特WaveNet波形建模效果
+          <p>
+          <ul>
+            <li> 参与部分 <a href=http://www.vc-challenge.org/vcc2018/index.html  target="_blank">Voice Conversion Challenge 2018 (VCC2018) </a> 工作, 系统获得比赛第一名 </li>
+            <li> 以VCC2018工作为基线系统，协助提供ASV2019比赛数据集 </li>
+            <li> 序列到序列模型的声音转换方法研究 </li>
+            <li> 利用基于DNN的语音增强技术提升低比特WaveNet波形建模效果 </li>
+          </ul>
+          </p>
 
 projects:
     title: 参与项目
@@ -143,7 +152,7 @@ skills:
         level: 70%
 
 footer: >
-    Last Update 2020/3/24 下载我的<a href="assets/images/zjx_cv.pdf" target="_blank" rel="nofollow">简历</a>
+    Last Update 2020/5/30 下载我的<a href="assets/images/zjx_cv.pdf" target="_blank" rel="nofollow">简历</a>
 
     
 
