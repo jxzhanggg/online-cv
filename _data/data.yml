@@ -62,9 +62,9 @@ experiences:
       details: |
           <p>
           <ul>
-            <li> 基于口唇视频和超声波发音器官的语音生成, 口唇视频和超声数据含有大量的噪声信息，
+            <li> 基于口唇视频和超声波发音器官的语音生成是实现静默语音接口的重要方法。 但口唇视频和超声数据含有大量的噪声信息，
           并且有数据量稀疏模型难以训练的问题。口唇数据本身恢复声学信号是一个非常有挑战性而且有待研究的问题。</li>
-            <li> 参加 <a href=http://www.vc-challenge.org/ target="_blank">Voice Conversion Challenge 2020 (VCC2020)</a> 工作,  比赛结果将于2020年7月31日公布 </li>
+            <li> 代表国家语音工程实验室和联合科大讯飞团队参加 <a href=http://www.vc-challenge.org/ target="_blank">Voice Conversion Challenge 2020 (VCC2020)</a> 工作。我主要负责单语种和跨语种语音转换声音转换声学模型部分。 比赛结果将于2020年7月31日公布 </li>
           </ul>
           </p>
     
