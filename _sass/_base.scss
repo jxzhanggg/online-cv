@@ -99,8 +99,8 @@ p {
        height: auto;        /* 保持纵横比 */
        border-radius: 0;    /* 移除圆形效果 */
        object-fit: cover;   /* 确保图片正确填充 */
-       margin-bottom: 20px; /* 与名字保持一定距离 */
        margin: 0;           /* 移除外边距 */
+       margin-bottom: 15px; /* 与名字保持一定距离 */
        display: block;      /* 确保是块级元素 */
      }
 	
