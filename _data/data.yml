@@ -112,7 +112,7 @@ publications:
         authors: Jing-Xuan Zhang, Genshun Wan, Jia Pan
         conference: ACM, 2023
 
-      - title: TaLNet: Voice Reconstruction from Tongue and Lip Articulation with Transfer Learning from Text-to-Speech Synthesis
+      - title: TaLNet Voice Reconstruction from Tongue and Lip Articulation with Transfer Learning from Text-to-Speech Synthesis
         link: https://ojs.aaai.org/index.php/AAAI/article/view/17693
         authors: Jing-Xuan Zhang, Korin Richmond, Zhen-Hua Ling, Li-Rong Dai,
         conference: AAAI, 2021
