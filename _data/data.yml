@@ -13,34 +13,31 @@ sidebar:
 
     # Sidebar links
     email: nosisi@mail.ustc.edu.cn
-    phone: +86 18110931750
-    website:  jxzhanggg.github.io/online-cv_en #do not add http://
-    linkedin: 景宣-张-769888bb #alandoe
-    github: jxzhanggg
-    gitlab:
-    bitbucket:
-    twitter: #'@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+    # phone: +86 18110931750
+    # website:  jxzhanggg.github.io/online-cv_en #do not add http://
+    # linkedin: 景宣-张-769888bb #alandoe
+    # github: jxzhanggg
+    # gitlab:
+    # bitbucket:
+    # twitter: #'@webjeda'
+    # stack-overflow: # Number/Username, e.g. 123456/alandoe
+    # codewars:
+    # goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
       - idiom: 英语
         level: 雅思 (IELTS) 7.0 / 9.0
 
-    interests:
-      - item: 旅行，看电影，打羽毛球
-        link: #
-
 career-profile:
     title: 个人简介
-    summary: |
-      我的主要研究方向是语音合成，语音转换任务。读博期间的一些工作也主要围绕语音任务展开，
-      主要包括基于序列到序列的方法提升语音转换的效果，并利用特征解耦的方法拓展到非平行序列
-      到序列的语音转换。其他的工作还包括基于说话人对抗学习的语音转化，在爱丁堡大学交流期间
-      工作主要围绕基于口唇视频和超声波发音器官的语音生成。
+    summary:
+      我的主要研究方向是语音信号处理，包括语音识别、多模态语音处理以及语音生成。
+      博士期间的工作主要围绕声音转换研究，主要开展了基于序列到序列的语音转换、超声图像以及唇形到语音生成方面的研究。
+      博士后工作期间，主要围绕语音识别、音视频语音识别以及语音无监督训练进行了研究工作。
+      未来的研究会更希望涵盖大模型和语音感知与理解结合，多模态语音感知以及高表现力的语音生成。
+
 education:
-    - degree: 电子信息工程博士
+    - degree: 信息与通信工程博士
       university: 中国科学技术大学, 信息学院
       time: 2016.09 - 2021.06
       tutor: 导师：凌震华，戴礼荣
@@ -56,52 +53,75 @@ education:
       tutor: #
 
 experiences:
-    - role: 联合培养博士，访问学生
-      time: 2020.02 - 2020.08
-      company: CSTR, University of Edinburgh, UK
-      details: |
-          <p>
+    - role: 讲师
+      time: 2023.07-至今
+      company: 陕西师范大学（SNNU）
+      details: 
+         <p>
           <ul>
-            <li> 基于口唇视频和超声波发音器官的语音生成是实现静默语音接口的重要方法。 但口唇视频和超声数据含有大量的噪声信息，
-          并且有数据量稀疏模型难以训练的问题。口唇数据本身恢复声学信号是一个非常有挑战性而且有待研究的问题。</li>
-            <li> 代表国家语音工程实验室和联合科大讯飞团队参加 <a href=http://www.vc-challenge.org/ target="_blank">Voice Conversion Challenge 2020 (VCC2020)</a> 工作。我主要负责单语种和跨语种语音转换声音转换声学模型部分。 比赛结果将于2020年7月31日公布 </li>
+            <li> 专业课程：线性代数（秋季学期）、离散数学（春季学期）
+            <li> 公共课程：大学计算机基础（秋季学期）、Python与人工智能（春季学期）
           </ul>
           </p>
-    
-    - role: 实习生
-      time: 2017.11 - 2018.08
-      company: 科大讯飞公司，安徽合肥
-      details: |
-          <p>
-          <ul>
-            <li> 参与部分 <a href=http://www.vc-challenge.org/vcc2018/index.html  target="_blank">Voice Conversion Challenge 2018 (VCC2018) </a> 工作, 系统获得比赛第一名 </li>
-            <li> 以VCC2018工作为基线系统，协助提供ASV2019比赛数据集 </li>
-            <li> 序列到序列模型的声音转换方法研究 </li>
-            <li> 利用基于DNN的语音增强技术提升低比特WaveNet波形建模效果 </li>
-          </ul>
-          </p>
+      
+    - role: 高级AI研究员/博士后
+      time: 2021.7-2023.07
+      company: 中国科学技术大学（USTC）, 科大讯飞研究院（iFLYTEK Research）
+      details:
+         <p>
+          在科大讯飞期间，多次承担或参与了公司内部的语音识别、多模态语音信号处理、语音交互等技术攻关与项目研发。
+          研究成果已经广泛应用于目前科大讯飞的多项产品中，例如办公本、录音笔、智慧座舱、交互大屏等。
+          本人和科大讯飞至今仍保持密切的科研合作与联系，优秀的硕士同学有机会推荐进入科大讯飞实习。
+         </p>
 
 projects:
-    title: 参与项目
+    title: 承担项目
     intro: 
     assignments:
-      - title: 非平行语音序列到序列转换
-        link:  https://github.com/jxzhanggg/nonparaSeq2seqVC_code 
-        tagline: 开源项目，基于序列到序列模型受限于平行数据，在这个工作中我们提出了基于说话人特征和语言学特征解耦的方法，使序列到序列方法扩展到非平行语音转换任务中， 2018.3 - 2019.11
-      
-      - title: 三星研究院语音增强项目
-        link: #"#"
-        tagline: 主要负责低延迟的单通道语音增强模型搭建和调优。实现更好的语音增强效果，尝试了渐进学习网络，同时进行干净语音帧和IRM多目标学习， 2016.11 - 2017.5 
+      - title: 开放世界下鲁棒性的音视频语音识别研究
+        tagline: 国家自然科学基金委，青年科学基金项目，在研，主持，2025.01.01 - 2027.12.31
 
-      - title: 大学生创新项目
-        link: #"#"
-        tagline: 基于声学控制模型的语音到歌唱转换, 基于传统方法的语音到歌唱转换，主要包括边界匹配模块，时长调整模块，基频和频谱调整模块，2015.5 - 2016.5
+      - title: 据稀疏条件下的个性化多模态语音识别研究
+        tagline: 中央高校基本科研业务费专项，青年教师自由探索项目，在研，主持，2025.01.01 - 2026.12.31
+
+      - title: 基于大规模无监督预训练的语音表征提取方法研究与应用
+        tagline: 陕西省科技厅，重点产业创新链项目，结项，主持，2023.01.01 至 2024.12.31
 
 publications:
     title: 发表文章
     intro: |
           
     papers:
+      - title: Audio-Visual Representation Learning via Knowledge Distillation from Speech Foundation Models
+        link: https://www.sciencedirect.com/science/article/abs/pii/S0031320325000925
+        authors: Jing-Xuan Zhang, Genshun Wan, Jianqing Gao, Zhen-Hua Ling
+        conference: Pattern Recognition, 2025
+
+      - title: Target speaker lipreading by audio–visual self-distillation pretraining and speaker adaptation
+        link: https://www.sciencedirect.com/science/article/abs/pii/S095741742500363X
+        authors: Jing-Xuan Zhang, Tingzhi Mao, Longjiang Guo, Jin Li, Lichen Zhang
+        conference: Expert Systems with Applications, 2025
+
+      - tilte: Self-Supervised Audio-Visual Speech Representations Learning By Multimodal Self-Distillation
+        link: https://ieeexplore.ieee.org/document/10095029?denied=
+        authors: Jing-Xuan Zhang, Genshun Wan, Zhen-Hua Ling, Jia Pan, Jianqing Gao, Cong Liu
+        conference: ICASSP, 2023
+
+      - title: Is Lip-Region-of-Interest Sufficient for Lipreading?
+        link: https://dl.acm.org/doi/10.1145/3536221.3556571
+        authors: Jing-Xuan Zhang, Genshun Wan, Jia Pan
+        conference: ACM, 2023
+
+      - title: TaLNet: Voice Reconstruction from Tongue and Lip Articulation with Transfer Learning from Text-to-Speech Synthesis
+        link: https://ojs.aaai.org/index.php/AAAI/article/view/17693
+        authors: Jing-Xuan Zhang, Korin Richmond, Zhen-Hua Ling, Li-Rong Dai,
+        conference: AAAI, 2021
+
+      - title: Voice Conversion by Cascading Automatic Speech Recognition and Text-to-Speech Synthesis with Prosody Transfer
+        link: https://arxiv.org/abs/2009.01475
+        author: Jing-Xuan Zhang, Li-Juan Liu,Yan-Nian Chen, Ya-Jun Hu, Yuan Jiang, Zhen-Hua Ling, Li-Rong Dai
+        conference: Interspeech, 2020
+
       - title: Non-Parallel Sequence-to-Sequence Voice Conversion with Disentangled Linguistic and Speaker Representations
         link: https://arxiv.org/abs/1906.10508
         authors: Jing-Xuan Zhang, Zhen-Hua Ling, Li-Rong Dai
@@ -115,7 +135,7 @@ publications:
       - title: Recognition-Synthesis Based Non-Parallel Voice Conversion with Adversarial Learning
         link: #"#"
         authors: Jing-Xuan Zhang, Zhen-Hua Ling, Li-Rong Dai
-        conference: INTERSPEECH, 2020, submitted
+        conference: INTERSPEECH, 2020
       
       - title: Improving Sequence-to-Sequence Voice Conversion by Adding Text-Supervision
         link:  https://arxiv.org/abs/1811.08111
@@ -138,21 +158,9 @@ publications:
         conference: Computer Speech and Language, 2019
 
 
-skills:
-    title: 代码技能
-
-    toolset:
-      - name: Python 
-        level: 95%
-
-      - name: PyTorch, Tensorflow
-        level: 95%
-
-      - name: Matlab, C++
-        level: 70%
 
 footer: >
-    Last Update 2020/5/30 下载我的<a href="assets/images/zjx_cv.pdf" target="_blank" rel="nofollow">简历</a>
+    Last Update 2025/3/23
 
     
 
