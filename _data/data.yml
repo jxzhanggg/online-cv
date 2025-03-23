@@ -157,7 +157,7 @@ publications:
         authors: Yang Ai, Jing-Xuan Zhang, Zhen-Hua Ling
         conference: IEEE ICASSP, 2019
 
-      - title: TaL: a synchronised multi-speaker corpus of ultrasound tongue imaging, audio, and lip videos
+      - title: "TaL: a synchronised multi-speaker corpus of ultrasound tongue imaging, audio, and lip videos"
         link: https://ieeexplore.ieee.org/abstract/document/9383619
         authors: Manuel Sam Ribeiro, Jennifer Sanger, Jing-Xuan Zhang, Aciel Eshky, Alan Wrench, Korin Richmond, Steve Renals
         conference: IEEE Spoken Language Technology Workshop (SLT), 2021
@@ -166,6 +166,11 @@ publications:
         link:  https://arxiv.org/abs/1911.01601
         authors: Xin Wang, et al., Jing-Xuan Zhang, Zhen-Hua Ling
         conference: Computer Speech and Language, 2019
+
+      - title: Adversarial post-processing of voice conversion against spoofing detection
+        link: https://ieeexplore.ieee.org/abstract/document/9306268
+        authors: Yi-Yang Ding, Jing-Xuan Zhang, Li-Juan Liu, Yuan Jiang, Yu Hu, Zhen-Hua Ling
+        conference: IEEE APSIPA, 2020
 
       - title: Grammar-supervised end-to-end speech recognition with part-of-speech tagging and dependency parsing
         link: https://www.mdpi.com/2076-3417/13/7/4243
