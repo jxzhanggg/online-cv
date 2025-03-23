@@ -125,7 +125,7 @@ publications:
 
       - title: Voice Conversion by Cascading Automatic Speech Recognition and Text-to-Speech Synthesis with Prosody Transfer
         link: https://arxiv.org/abs/2009.01475
-        author: Jing-Xuan Zhang, Li-Juan Liu,Yan-Nian Chen, Ya-Jun Hu, Yuan Jiang, Zhen-Hua Ling, Li-Rong Dai
+        authors: Jing-Xuan Zhang, Li-Juan Liu,Yan-Nian Chen, Ya-Jun Hu, Yuan Jiang, Zhen-Hua Ling, Li-Rong Dai
         conference: Interspeech, 2020
 
       - title: Non-Parallel Sequence-to-Sequence Voice Conversion with Disentangled Linguistic and Speaker Representations
