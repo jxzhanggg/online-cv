@@ -4,8 +4,9 @@
   <div class="profile-container">
 
     {% if sidebar.name %}
-    <!-- <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" /> -->
+    <a href="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" target="_blank" class="profile-photo-link">
     <img class="profile-photo" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
+    </a>
     {% endif %}
 
     {% if sidebar.name %}
