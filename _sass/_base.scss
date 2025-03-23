@@ -49,6 +49,7 @@ p {
     }
     .profile-container {
         padding: 30px;
+        padding-bottom: 20px;
         //background: darken($theme-color, 10%);
         background: rgba(0, 0, 0, 0.2);
         text-align: center;
@@ -79,6 +80,15 @@ p {
         border-radius: 100%;
         box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
     }
+
+    .profile-photo {
+       width: 100%;         /* 占满侧边栏宽度 */
+       height: auto;        /* 保持纵横比 */
+       border-radius: 0;    /* 移除圆形效果 */
+       object-fit: cover;   /* 确保图片正确填充 */
+       margin-bottom: 15px; /* 与名字保持一定距离 */
+     }
+	
     .contact-list {
         .fas, .fab {
             margin-right: 5px;
