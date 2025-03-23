@@ -12,7 +12,7 @@ sidebar:
     avatar: me2.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: nosisi@mail.ustc.edu.cn
+    email: jxzhanggg(_at_)snnu.edu.cn
     # phone: +86 18110931750
     # website:  jxzhanggg.github.io/online-cv_en #do not add http://
     # linkedin: 景宣-张-769888bb #alandoe
@@ -27,6 +27,8 @@ sidebar:
     languages:
       - idiom: 英语
         level: 雅思 (IELTS) 7.0 / 9.0
+
+    
 
 career-profile:
     title: 个人简介
@@ -55,18 +57,18 @@ education:
 experiences:
     - role: 讲师
       time: 2023.07-至今
-      company: 陕西师范大学（SNNU）
+      company: 陕西师范大学（SNNU），计算机科学学院
       details: 
          <p>
           <ul>
-            <li> 专业课程：线性代数（秋季学期）、离散数学（春季学期）
-            <li> 公共课程：大学计算机基础（秋季学期）、Python与人工智能（春季学期）
+            <li> 讲授专业课：线性代数（秋季学期）、离散数学（春季学期）
+            <li> 讲授公共课：大学计算机基础（秋季学期）、Python与人工智能（春季学期）
           </ul>
           </p>
       
-    - role: 高级AI研究员/博士后
+    - role: 高级AI研究员（博士后）
       time: 2021.7-2023.07
-      company: 中国科学技术大学（USTC）, 科大讯飞研究院（iFLYTEK Research）
+      company: 科大讯飞研究院（iFLYTEK Research），中国科学技术大学（USTC）博士后工作站
       details:
          <p>
           在科大讯飞期间，多次承担或参与了公司内部的语音识别、多模态语音信号处理、语音交互等技术攻关与项目研发。
@@ -75,17 +77,20 @@ experiences:
          </p>
 
 projects:
-    title: 承担项目
+    title: 承担/参与项目
     intro: 
     assignments:
       - title: 开放世界下鲁棒性的音视频语音识别研究
-        tagline: 国家自然科学基金委，青年科学基金项目，在研，主持，2025.01.01 - 2027.12.31
-
+        tagline: 国家自然科学基金委，青年科学基金项目，在研，主持，2025.01 - 2027.12
+        
       - title: 据稀疏条件下的个性化多模态语音识别研究
-        tagline: 中央高校基本科研业务费专项，青年教师自由探索项目，在研，主持，2025.01.01 - 2026.12.31
+        tagline: 中央高校基本科研业务费专项，青年教师自由探索项目，在研，主持，2025.01 - 2026.12
 
       - title: 基于大规模无监督预训练的语音表征提取方法研究与应用
-        tagline: 陕西省科技厅，重点产业创新链项目，结项，主持，2023.01.01 至 2024.12.31
+        tagline: 陕西省科技厅，重点产业创新链项目，结项，主持，2023.01 - 2024.12
+
+      - title: 多语种语音识别关键技术
+        tagline: 中科院, 中国科学院战略性先导科技专项，结项，参与，2020.01 - 2023.05
 
 publications:
     title: 发表文章
@@ -102,7 +107,7 @@ publications:
         authors: Jing-Xuan Zhang, Tingzhi Mao, Longjiang Guo, Jin Li, Lichen Zhang
         conference: Expert Systems with Applications, 2025
 
-      - tilte: Self-Supervised Audio-Visual Speech Representations Learning By Multimodal Self-Distillation
+      - title: Self-Supervised Audio-Visual Speech Representations Learning By Multimodal Self-Distillation
         link: https://ieeexplore.ieee.org/document/10095029?denied=
         authors: Jing-Xuan Zhang, Genshun Wan, Zhen-Hua Ling, Jia Pan, Jianqing Gao, Cong Liu
         conference: ICASSP, 2023
@@ -133,7 +138,7 @@ publications:
         conference:  IEEE/ACM Trans. on Audio, Speech, and Lang. Proc., 2019
 
       - title: Recognition-Synthesis Based Non-Parallel Voice Conversion with Adversarial Learning
-        link: #"#"
+        link: https://www.isca-archive.org/interspeech_2020/zhang20d_interspeech.pdf
         authors: Jing-Xuan Zhang, Zhen-Hua Ling, Li-Rong Dai
         conference: INTERSPEECH, 2020
       
