@@ -13,13 +13,13 @@ sidebar:
 
     # Sidebar links
     email: jxzhanggg(_at_)snnu.edu.cn
-    # phone: +86 18110931750
-    # website:  jxzhanggg.github.io/online-cv_en #do not add http://
-    # linkedin: 景宣-张-769888bb #alandoe
-    # github: jxzhanggg
+    # phone: 
+    # website: #do not add http://
+    # linkedin:  #alandoe
+    # github: 
     # gitlab:
     # bitbucket:
-    # twitter: #'@webjeda'
+    # twitter: #
     # stack-overflow: # Number/Username, e.g. 123456/alandoe
     # codewars:
     # goodreads: # Number-Username, e.g. 123456-alandoe
@@ -29,15 +29,14 @@ sidebar:
       - idiom: 英语
         level: 雅思 (IELTS) 7.0 / 9.0
 
-    
-
 career-profile:
     title: 个人简介
     summary:
-      我的主要研究方向是语音信号处理，包括语音识别、多模态语音处理以及语音生成。
+      本人的主要研究方向是语音信号处理，包括语音识别、多模态语音处理以及语音生成等方向。
       博士期间的工作主要围绕声音转换研究，主要开展了基于序列到序列的语音转换、超声图像以及唇形到语音生成方面的研究。
       博士后工作期间，主要围绕语音识别、音视频语音识别以及语音无监督训练进行了研究工作。
-      未来的研究会更希望涵盖大模型和语音感知与理解结合，多模态语音感知以及高表现力的语音生成。
+      未来的研究会更希望涵盖大模型和语音感知与理解结合，多模态语音感知以及高表现力的语音生成。非常期待优秀的本科生
+      和研究生同学能加入我的研究团队，我们一起探索语音感知、理解以及生成的创新性算法以及应用场景。
 
 education:
     - degree: 信息与通信工程博士
@@ -72,9 +71,9 @@ experiences:
       company: 科大讯飞研究院（iFLYTEK Research），中国科学技术大学（USTC）博士后工作站
       details:
          <p>
-          在科大讯飞期间，多次承担或参与了公司内部的语音识别、多模态语音信号处理、语音交互等技术攻关与项目研发。
-          研究成果已经广泛应用于目前科大讯飞的多项产品中，例如办公本、录音笔、智慧座舱、交互大屏等。
-          本人和科大讯飞至今仍保持密切的科研合作与联系，优秀的硕士同学有机会推荐进入科大讯飞实习。
+          在科大讯飞期间，本人多次承担或参与了公司内部的语音识别、多模态语音信号处理、语音交互等技术攻关与项目研发。
+          相关研究成果已经应用于目前科大讯飞的多项产品中，例如办公本、录音笔、智慧座舱、交互大屏等。
+          本人和科大讯飞有限公司、科大讯飞西安研究院保持着密切的科研合作关系，优秀的硕士同学有机会推荐进入科大讯飞实习。
          </p>
 
 projects:
@@ -111,14 +110,14 @@ publications:
       - title: Self-Supervised Audio-Visual Speech Representations Learning By Multimodal Self-Distillation
         link: https://ieeexplore.ieee.org/document/10095029?denied=
         authors: Jing-Xuan Zhang, Genshun Wan, Zhen-Hua Ling, Jia Pan, Jianqing Gao, Cong Liu
-        conference: ICASSP, 2023
+        conference: IEEE ICASSP, 2023
 
       - title: Is Lip-Region-of-Interest Sufficient for Lipreading?
         link: https://dl.acm.org/doi/10.1145/3536221.3556571
         authors: Jing-Xuan Zhang, Genshun Wan, Jia Pan
-        conference: ACM, 2023
+        conference: ACM ICMI, 2023
 
-      - title: TaLNet Voice Reconstruction from Tongue and Lip Articulation with Transfer Learning from Text-to-Speech Synthesis
+      - title: "TaLNet: Voice Reconstruction from Tongue and Lip Articulation with Transfer Learning from Text-to-Speech Synthesis"
         link: https://ojs.aaai.org/index.php/AAAI/article/view/17693
         authors: Jing-Xuan Zhang, Korin Richmond, Zhen-Hua Ling, Li-Rong Dai,
         conference: AAAI, 2021
@@ -146,27 +145,37 @@ publications:
       - title: Improving Sequence-to-Sequence Voice Conversion by Adding Text-Supervision
         link:  https://arxiv.org/abs/1811.08111
         authors: Jing-Xuan Zhang, Zhen-Hua Ling, Yuan Jiang, Li-Juan Liu, Liang Chen, Li-Rong Dai
-        conference: ICASSP, 2019
+        conference: IEEE ICASSP, 2019
       
       - title: Forward Attention in Sequence-to-Sequence Acoustic Modeling for Speech Synthesis
         link: https://arxiv.org/abs/1807.06736
         authors: Jing-Xuan Zhang, Zhen-Hua Ling, Li-Rong Dai
-        conference: ICASSP, 2019
+        conference: IEEE ICASSP, 2019
 
       - title: DNN-Based Spectral Enhancement For Neural Waveform Generators With Low-Bit Quantization
         link: https://ieeexplore.ieee.org/document/8683016/
         authors: Yang Ai, Jing-Xuan Zhang, Zhen-Hua Ling
-        conference: ICASSP, 2019
+        conference: IEEE ICASSP, 2019
+
+      - title: TaL: a synchronised multi-speaker corpus of ultrasound tongue imaging, audio, and lip videos
+        link: https://ieeexplore.ieee.org/abstract/document/9383619
+        authors: Manuel Sam Ribeiro, Jennifer Sanger, Jing-Xuan Zhang, Aciel Eshky, Alan Wrench, Korin Richmond, Steve Renals
+        conference: IEEE Spoken Language Technology Workshop (SLT), 2021
       
       - title: "ASVspoof 2019: a large-scale public database of synthetic, converted and replayed speech"
         link:  https://arxiv.org/abs/1911.01601
         authors: Xin Wang, et al., Jing-Xuan Zhang, Zhen-Hua Ling
         conference: Computer Speech and Language, 2019
 
+      - title: Grammar-supervised end-to-end speech recognition with part-of-speech tagging and dependency parsing
+        link: https://www.mdpi.com/2076-3417/13/7/4243
+        authors: Genshun Wan, Tingzhi Mao, Jingxuan Zhang, Hang Chen, Jianqing Gao, Zhongfu Ye
+        conference: Applied Sciences, 2023
+
 
 
 footer: >
-    Last Update 2025/3/23
+    最后更新时间 2025/3/23
 
     
 
